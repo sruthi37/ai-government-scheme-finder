@@ -12,8 +12,7 @@ form.addEventListener("submit", async (e) => {
 
     try {
 
-        const response = await fetch(
-            "http://127.0.0.1:5000/match",
+        const response = await fetch("https://ai-government-scheme-finder.onrender.com/match", 
             {
                 method: "POST",
                 headers: {
